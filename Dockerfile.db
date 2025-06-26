@@ -1,0 +1,7 @@
+From mariadb:10.11
+
+LABEL description="This is the DB for the web component" \
+	version="1.0" \
+	maintainer="Dimo Dimow"
+
+ADD ./db/db_setup.sql /docker-entrypoint-initdb.d/init.sql
