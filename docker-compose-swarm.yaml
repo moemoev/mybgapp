@@ -16,7 +16,7 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: /run/secrets/db_root_password
         secrets:
-          -db_root_password
+          - db_root_password
 secrets:
   db_root_password:
       external: true
