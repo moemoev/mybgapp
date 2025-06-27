@@ -1,6 +1,6 @@
 services:
     web:
-        image: moemoev/mybgapp.web
+        image: moemoev/mybgapp-web
         deploy:
             replicas: 5
         ports:
